@@ -1,0 +1,62 @@
+li, a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #8E8E8E;
+    text-decoration: none;
+}
+
+input {
+    font-weight: 300;
+    font-size: 14px;
+    color: #8E8E8E;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgba(142, 142, 142, 0.5);
+}
+
+input {
+    padding: 12px 81px 12px 12px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px 0px 0px 4px;
+}
+
+button {
+    padding: 6px 11px;
+    background-color: #fff;
+    color: #8E8E8E;
+    border: 1px solid #DBDBDB;
+    border-radius: 0px 4px 4px 0px;
+
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    color: rgba(142, 142, 142, 0.5);
+}
+
+.material-symbols-rounded {
+    cursor: pointer;
+}

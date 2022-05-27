@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="cad.css">
+    </head>
+    <body>
+
+
+        <div class="retangulo">
+            <form action="">
+                <fieldset>
+                    <legend><b>Cadastrar Usuário</b></legend>
+                    <br>
+                         <div class="insert">
+                            <input class="inputdata" type="text" name="nome" id="nome" required>
+                            <label class="inputlabel" for="nome"> <b>Nome:</b></label>
+                        </div>
+                    <br>
+                        <div class="insert">
+                            <input class="inputdata" type="text" name="sobrenome" id="sobrenome" required>
+                            <label class="inputlabel" for="sobrenome"> <b>Sobrenome:</b> </label>
+                        </div>
+                    <br>
+                        <div class="insert">
+                            <input class="inputdata" type="text" name="email" id="email" required>
+                            <label class="inputlabel" for="email"><b>E-mail</b>:</label>
+                        </div>
+                    <br>
+                        <p> <b>Sexo:</b>
+                        </p>
+                        <p>
+                            <input type="radio" name="sexo" id="femenino" value="mfemenino" required>
+                            <label for="femenino">Femenino</label>
+                            <input type="radio" name="sexo" id="masculino" value="masculino" required>
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" name="sexo" id="outro" value="outro" required>
+                            <label for="outro">Outro</label>
+                        </p>
+                    <br>
+                        <div class="insert">
+                            
+                            <label class="inputlabel" for="nascimento"><b>Data de Nascimento:</b> </label>
+                            <br>
+                            <input  type="date" name="nascimento" id="nascimento" required>
+                        </div>
+                    <br>
+                        <div class="insert">
+                            <input class="inputdata" type="text" name="pais" id="pais" required>
+                            <label class="inputlabel" for="pais"><b>País:</b></label>
+                        </div>
+                    <br>
+                        <div class="insert">
+                            <input class="inputdata" type="text" name="cidade" id="cidade" required>
+                            <label class="inputlabel" for="cidade"><b>Cidade:</b></label>
+                        </div>
+                    <br>
+                        <div class="insert">
+                            <input class="inputdata" type="text" name="usuario" id="usuario" required>
+                            <label class="inputlabel" for="usuario"><b>Usuário:</b></label>
+                        </div>
+                    <br>
+                        <div class="insert">
+                            <input class="inputdata" type="password" name="senha" id="senha" required>
+                            <label class="inputlabel" for="senha"><b>Senha:</b></label>
+                        </div>
+                    <br>
+                        <div class="botao">
+                            <input class="cadastrar" type="submit" id="cadastrar" value="Cadastrar">
+                        </div>
+                    <br>
+
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+</html>

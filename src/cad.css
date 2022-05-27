@@ -1,0 +1,125 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, rgb(38, 125, 175), rgb(88, 140, 163));
+}
+
+.retangulo {
+    top: 10vh;
+    width: 50vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 10px;
+    color: rgb(0, 38, 87);
+}
+
+fieldset {
+    background-image: linear-gradient(to right, rgb(160, 185, 199), rgb(92, 126, 140));
+    border: 1px solid rgba(8, 52, 109, 0.986);
+}
+
+legend {
+    width: 150px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(43, 74, 92), rgb(0, 109, 156));
+    border: 1px solid rgba(0, 51, 62, 0.392);
+    color: white;
+
+}
+
+.insert {
+    position: relative;
+
+}
+
+.inputdata {
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(0, 38, 87);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+.inputlabel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5px;
+}
+
+.inputdata:focus ~ .inputlabel,
+.inputdata:valid ~ .inputlabel {
+    top: -15px;
+    font-size: 12px;
+    color: rgb(0, 38, 87);
+
+}
+
+#nascimento {
+    background-image: linear-gradient(to right, rgb(195, 224, 230), rgb(184, 215, 230));
+    width: 95%;
+    border: 1px solid rgb(230, 230, 230);
+    margin-top: 3px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 12px;
+    color: rgb(0, 38, 87);
+    letter-spacing: 3px;
+}
+
+.botao {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cadastrar {
+    width: 20vw;
+    height: 30px;
+    margin-top: 1vh;
+    background-image: linear-gradient(to right, rgb(35, 82, 114), rgb(6, 51, 73));
+    color: rgba(224, 224, 224, 0.841);
+    font-size: 14px;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 2px;
+
+}
+
+
+#cadastrar:hover {
+    background-image: linear-gradient(to right, rgba(35, 82, 114, 0.978), rgba(6, 51, 73, 0.967));
+    color: rgb(240, 240, 240);
+    border: 1px solid rgba(6, 51, 73, 0.967);
+
+}
+
+#cadastrar:focus {
+    background-image: linear-gradient(to right, rgba(35, 82, 114, 0.978), rgba(6, 51, 73, 0.967));
+    color: rgb(253, 253, 253);
+    font-size: 13px;
+    border: 2px solid rgba(237, 237, 237, 0.368);
+
+}
